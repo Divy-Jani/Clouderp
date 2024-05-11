@@ -1,0 +1,72 @@
+/* Navbar.css */
+
+/* Hide the navbar toggle button on larger screens */
+.navbar-toggler {
+    display: none;
+  }
+  
+  /* Hide the navbar menu on larger screens */
+  .navbar-menu {
+    display: none;
+  }
+  
+  /* Show the navbar toggle button and navbar menu on smaller screens */
+  @media (max-width: 640px) {
+    .navbar-toggler {
+      display: block;
+    }
+  
+    .navbar-menu {
+      display: block;
+      position: absolute;
+      top: 100%;
+      left: 0;
+      width: 100%;
+      background-color: #fff;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      z-index: 10;
+      transform: scaleY(0);
+      transform-origin: top;
+      transition: transform 0.3s ease-in-out;
+    }
+  
+    .navbar-menu.show {
+      transform: scaleY(1);
+    }
+  
+    #schedule-btn {
+      display: none;
+    }
+  
+    /* Adjust styles for the navbar items on smaller screens */
+    .navbar-menu ul {
+      flex-direction: column;
+      padding: 0;
+      margin: 0;
+      border: none;
+      background-color: transparent;
+    }
+  
+    .navbar-menu ul li {
+      margin: 0;
+    }
+  
+    .navbar-menu ul li a,
+    .navbar-menu ul li button {
+      display: block;
+      padding: 10px 20px;
+      width: 100%;
+      text-align: left;
+    }
+  
+    /* Adjust styles for the dropdown menus on smaller screens */
+    .absolute.top-full {
+      position: static;
+      box-shadow: none;
+      background-color: transparent;
+    }
+  
+    .absolute.top-full ul li a {
+      padding-left: 40px;
+    }
+  }

@@ -1,0 +1,24 @@
+@media (max-width: 768px) {
+    #two0{
+        padding-top: 30px;
+        margin-top: 0px;
+    }
+           
+    
+    #two1{
+        font-size: 20px;
+        padding-top: 0px;
+        margin-top: 0px;
+        font-weight: 900;
+    }
+    #two2{
+        flex-direction: column;
+        padding-top: 10px;
+        
+    }
+    #two3{
+        padding-top: 30px;
+    }
+
+    
+}

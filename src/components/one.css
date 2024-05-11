@@ -1,0 +1,51 @@
+@media (max-width: 768px) {
+
+    #oneone{
+        margin-top: 0px;
+        padding-top: 0px;
+    }
+
+   #onee{
+   padding-left: 2px;
+   margin-top: 2px;
+   margin-top: 0px;
+   padding-top: 30px;
+  
+
+   }
+
+   #onee2{
+    padding-left: 10px;
+    font-size: 20px;
+    margin-top: 0px;
+    padding-top: 0px;
+   
+
+   }
+
+   #onee3{
+    padding-left: 15px;
+    font-size: 8.5px;
+    margin-top: 0px;
+    padding-top: 0px;
+   }
+
+   #one2btn{
+    font-size: 12px;
+    padding-left: 8px;
+    margin-left: 0px;
+    margin-top: 0px;
+    padding-top: 0px;
+   }
+ 
+#one2btn2{
+    display: none;
+}
+#one2btnn{
+    padding-left: 0px;
+    margin-left: 0px;
+    margin-top: 0px;
+    padding-top: 4px;
+}
+
+}

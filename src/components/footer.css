@@ -1,0 +1,54 @@
+@media (max-width: 768px) {
+ 
+ 
+ 
+ 
+    #footer1{
+    padding: 0px;
+    margin: 0px;
+    padding: 4%;
+  
+ }
+    #footerfont{
+        font-size: 10px;
+        padding: 2px;
+    }
+    #footerimg{
+        height: 22px;
+    }
+    
+    #copy0{
+        font-size: 4px;
+        padding: 0px;
+        margin: 0px;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 10px;
+
+    }
+    #copy1{
+        font-size: 4px;
+        padding: 0px;
+        margin: 0px;
+
+    }
+     #copy2{
+       
+        padding: 0px;
+        margin: 0px;
+
+    }
+    #copy3{
+       
+        padding: 0px;
+        margin: 0px;
+        height: 10px;
+
+    }
+    
+    
+    
+    
+    
+    }
+        
